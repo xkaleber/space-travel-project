@@ -1,0 +1,17 @@
+/* Button design to match navigation bar */
+.backButton {
+    background-color: transparent;
+    border: 2px solid #00ffff; /* Match nav bar color */
+    color: #ffffff;
+    padding: 10px 20px;
+    font-family: 'Orbitron', sans-serif; /* Match nav bar font */
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.backButton:hover {
+    background-color: #1a1a2e; /* Match nav bar color */
+    color: #00ffff; /* White text on hover */
+    border-color: #ffffff; /* Neon blue border on hover */
+}

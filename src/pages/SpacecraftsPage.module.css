@@ -1,0 +1,91 @@
+.page {
+  width: min(1000px, 95vw);
+  min-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.topRow {
+  margin-top: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-top: 10px;
+}
+
+.card {
+  border: 2px solid #00ffff;
+  border-radius: 8px;
+  padding: 18px;
+  display: grid;
+  grid-template-columns: 120px 1fr 160px;
+  align-items: center;
+  gap: 18px;
+}
+
+.imageWrap {
+  text-decoration: none;
+}
+
+.dottedBox {
+  width: 90px;
+  height: 90px;
+  border: 2px dotted #ffffff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.emoji {
+  font-size: 36px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 16px;
+}
+
+.line {
+  opacity: 0.95;
+}
+
+.destroy {
+  justify-self: end;
+  background: transparent;
+  border: 2px solid #00ffff;
+  color: #ffffff;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.destroy:hover {
+  color: #00ffff;
+  border-color: #ffffff;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 24px 0 10px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.8;
+  font-size: 14px;
+}
+
+.footerIcons {
+  letter-spacing: 2px;
+}

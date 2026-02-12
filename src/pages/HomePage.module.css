@@ -1,0 +1,58 @@
+/* src/pages/HomePage.module.css */
+
+.page {
+  width: min(1000px, 95vw);
+  min-height: calc(100vh - 80px);
+  margin: 0 auto;
+  padding-top: 18px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle {
+  text-align: center;
+  margin: 10px 0 22px 0;
+  font-size: 18px;
+  font-weight: 700;
+  opacity: 0.95;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.sectionTitle {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.dottedBox {
+  border: 2px dotted rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  padding: 18px 18px;
+  line-height: 1.35;
+  font-size: 14px;
+  opacity: 0.95;
+}
+
+.dottedBox p {
+  margin: 0;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 24px 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.8;
+  font-size: 14px;
+}
+
+.footerIcons {
+  letter-spacing: 2px;
+}

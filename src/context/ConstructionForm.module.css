@@ -1,0 +1,121 @@
+/* src/pages/ConstructionForm.module.css */
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.content {
+  width: min(1000px, 95vw);
+  margin: 0 auto;
+  padding-top: 18px;
+}
+
+.backBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  background-color: transparent;
+  border: 2px solid #00ffff; /* Match nav bar color */
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 6px;
+  margin-bottom: 18px;
+}
+
+.backBtn:hover {
+  color: #00ffff;
+  border-color: #ffffff;
+}
+
+.card {
+  border: 2px solid #00ffff;
+  border-radius: 8px;
+  padding: 26px;
+  width: min(900px, 95vw);
+}
+
+.input,
+.textarea {
+  width: 100%;
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid #00ffff;
+  border-radius: 4px;
+  padding: 12px 14px;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+
+.textarea {
+  height: 170px;
+  resize: none; /* finished screenshot looks fixed */
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: #adacac;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: #00ffff; /* keep white like finished */
+}
+
+.errors {
+  margin-top: 10px;
+  min-height: 44px; /* keeps spacing even when no errors */
+}
+
+.errorText {
+  color: #ff3b3b;
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+.actions {
+  width: min(900px, 95vw);
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.buildBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  background-color: transparent;
+  border: 2px solid #00ffff; /* Match nav bar color */
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.buildBtn:hover {
+  color: #00ffff;
+  border-color: #ffffff;
+}
+
+.footer {
+  margin-top: auto;
+  width: min(1000px, 95vw);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px 0 10px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.8;
+  font-size: 14px;
+}
+
+.footerIcons {
+  letter-spacing: 2px;
+}

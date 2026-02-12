@@ -1,0 +1,82 @@
+.page {
+  width: min(1000px, 95vw);
+  min-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.imageRow {
+  display: flex;
+  justify-content: center;
+}
+
+.detailsRow {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-size: 16px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dottedBox {
+  width: 170px;
+  height: 170px;
+  border: 2px dotted #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
+}
+
+.emoji {
+  font-size: 56px;
+}
+
+.label {
+  font-size: 16px;
+  opacity: 0.95;
+}
+
+.description {
+  font-size: 12px;
+  line-height: 1.35;
+  opacity: 0.9;
+  white-space: pre-wrap;
+}
+
+/* .footer {
+  margin-top: auto;
+  padding: 24px 0 10px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.8;
+  font-size: 14px;
+}
+
+.footerIcons {
+  letter-spacing: 2px;
+} */
