@@ -11,7 +11,7 @@
 .subtitle {
   text-align: center;
   margin: 10px 0 22px 0;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   opacity: 0.95;
 }
@@ -29,7 +29,7 @@
 }
 
 .dottedBox {
-  border: 2px dotted rgba(255, 255, 255, 0.8);
+  border: 2px dotted #00ffff;
   border-radius: 4px;
   padding: 18px 18px;
   line-height: 1.35;
