@@ -41,7 +41,7 @@
   animation-delay: 0.3s;
 }
 
-@keyframes bounce {
+@keyframes bounce { /* bounce animation for the dots */
   0%,
   100% {
     transform: translateY(0);

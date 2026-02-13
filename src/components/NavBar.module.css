@@ -10,24 +10,18 @@
 .navLink {
   color: #ffffff;
   text-decoration: none;
-
-  /* Always reserve the border space so nothing shifts */
   border: 2px solid transparent;
-
   padding: 8px 16px;
   font-size: 18px;
-
   transition: color 0.2s ease, border-color 0.2s ease;
 }
 
-/* Hover = ONLY green text (NO border) */
 .navLink:hover {
-  color: #00ffff; /* pick the green you want */
+  color: #00ffff;
 }
 
-/* Active = the ONLY white rectangle */
 .active {
   border-color: #00ffff;
-  color: #ffffff; /* keep active white like the screenshot */
-  border-radius: 4px; /* optional, for rounded corners */
+  color: #ffffff; 
+  border-radius: 4px;
 }

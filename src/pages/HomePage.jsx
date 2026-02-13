@@ -1,4 +1,3 @@
-// src/pages/HomePage.jsx
 import styles from "./HomePage.module.css";
 
 function HomePage() {

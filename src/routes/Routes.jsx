@@ -19,7 +19,6 @@ export default function AppRoutes() {
         <Route path="/spacecrafts/:id" element={<SpacecraftPage />} />
         <Route path="/construction" element={<ConstructionForm />} />
       </Routes>
-      {/* <NavigateBackButton /> */}
     </BrowserRouter>
   );
 }

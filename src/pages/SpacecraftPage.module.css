@@ -68,7 +68,7 @@
   white-space: pre-wrap;
 }
 
-/* .footer {
+.footer {
   margin-top: auto;
   padding: 24px 0 10px;
   display: flex;
@@ -79,4 +79,4 @@
 
 .footerIcons {
   letter-spacing: 2px;
-} */
+}

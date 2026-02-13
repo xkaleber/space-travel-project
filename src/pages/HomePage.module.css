@@ -1,5 +1,3 @@
-/* src/pages/HomePage.module.css */
-
 .page {
   width: min(1000px, 95vw);
   min-height: calc(100vh - 80px);

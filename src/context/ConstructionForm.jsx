@@ -1,5 +1,3 @@
-// src/pages/ConstructionForm.jsx (or wherever yours lives)
-
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import SpaceTravelApi from "../services/SpaceTravelApi.js";
@@ -72,7 +70,7 @@ function ConstructionForm() {
           Back 👈
         </button>
 
-        {/* big rectangle like the finished screenshot */}
+        {/* big rectangle */}
         <form className={styles.card} onSubmit={handleSubmit} noValidate>
           <input
             className={styles.input}
@@ -110,7 +108,7 @@ function ConstructionForm() {
           />
         </form>
 
-        {/* red warnings placed UNDER the big rectangle (like your finished) */}
+        {/* red warnings placed UNDER the big rectangle */}
         <div className={styles.errors}>
           {errors.capacity && (
             <div className={styles.errorText}>{errors.capacity}</div>
@@ -118,9 +116,7 @@ function ConstructionForm() {
           {errors.description && (
             <div className={styles.errorText}>{errors.description}</div>
           )}
-          {/* (optional) name warning if you want it visible too:
               {errors.name && <div className={styles.errorText}>{errors.name}</div>}
-          */}
         </div>
 
         {/* Build button OUTSIDE the big rectangle, bottom-right */}
