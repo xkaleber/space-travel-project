@@ -27,7 +27,7 @@
      ========================= */
 .planetTile {
   background: transparent;
-  border: 2px dotted #ffffff;
+  border: 2px dotted #00ffff;
   border-radius: 4px;
   padding: 18px;
   color: #ffffff;
@@ -104,7 +104,7 @@
 .spacecraftMiniBox {
   width: 54px;
   height: 54px;
-  border: 2px dotted #ffffff;
+  border: 2px dotted #00ffff;
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -140,4 +140,21 @@
 
 .spacecraftCap {
   opacity: 0.8;
+}
+
+/* =========================
+     Footer
+     ========================= */
+
+.footer {
+  margin-top: auto;
+  padding: 24px 0 10px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.8;
+  font-size: 14px;
+}
+
+.footerIcons {
+  letter-spacing: 2px;
 }

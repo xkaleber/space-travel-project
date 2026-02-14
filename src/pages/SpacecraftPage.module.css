@@ -40,7 +40,7 @@
 .dottedBox {
   width: 170px;
   height: 170px;
-  border: 2px dotted #ffffff;
+  border: 2px dotted #00ffff;
   display: flex;
   align-items: center;
   justify-content: center;

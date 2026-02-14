@@ -164,6 +164,12 @@ function PlanetsPage() {
           );
         })}
       </div>
+
+        <footer className={styles.footer}>
+          <div>The solar system: the new home.</div>
+          <div className={styles.footerIcons}>🌍🚀👨‍🚀🪐</div>
+        </footer>
+        
     </div>
   );
 }
