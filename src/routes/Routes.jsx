@@ -6,7 +6,6 @@ import PlanetsPage from "../pages/PlanetsPage.jsx";
 import SpacecraftsPage from "../pages/SpacecraftsPage.jsx";
 import SpacecraftPage from "../pages/SpacecraftPage.jsx";
 import ConstructionForm from "../context/ConstructionForm.jsx";
-import NavigateBackButton from "../components/NavigateBackButton.jsx";
 
 export default function AppRoutes() {
   return (
